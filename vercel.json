@@ -1,21 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "Flask/app.py",
-      "use": "@vercel/python",
-      "config": {
-        "buildCommand": "pip install -r requirements.txt"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "Flask/app.py"
-    }
-  ],
-  "env": {
-    "PYTHON_VERSION": "3.12"
-  }
+  "builds": [{ "src": "Flask/app.py", "use": "@vercel/python" }],
+  "installCommand": "pip install -r requirements.txt",
+  "routes": [{ "src": "/(.*)", "dest": "Flask/app.py" }]
 }
