@@ -1,5 +1,4 @@
 {
   "builds": [{ "src": "app.py", "use": "@vercel/python" }],
-  "routes": [{ "src": "/(.*)", "dest": "app.py" }],
-  "startCommand": "python app.py"
+  "routes": [{ "src": "/(.*)", "dest": "app.py" }]
 }
