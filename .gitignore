@@ -1,0 +1,60 @@
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+env/
+venv/
+ENV/
+*.db
+*.sqlite3
+
+# Vercel specific
+.vercel/
+
+# IDEs and text editors
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Python virtual environment folders
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Flask-related folders and files
+instance/
+*.pid
+*.seed
+*.sqlite
+*.pkl
+
+# Dependencies
+*.egg-info/
+dist/
+build/
+eggs/
+pip-wheel-metadata/
+__pycache__/
+
+# Flask environment files (if any)
+.env
+.flaskenv
+
+# Other files you don't want to push
+*.gz
+*.tar
+*.zip
+*.rar
